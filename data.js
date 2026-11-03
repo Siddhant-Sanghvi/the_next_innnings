@@ -12,7 +12,7 @@ const DATA = {
     "Helmets": 0, "Tennis balls": 0, "Leather balls": 0, "Clothes": 0
   },
 
-  heroBackground: { src: "images/hero-background.png", darken: 0.55 },   // optional photo behind the About title. darken: 0 = no tint, 1 = fully dark (0.4 to 0.7 keeps the text readable)
+  heroBackground: { src: "images/image.jpg", darken: 0.55 },   // optional photo behind the About title. darken: 0 = no tint, 1 = fully dark (0.4 to 0.7 keeps the text readable)
   heroPhoto: { src: "", alt: "Siddhant with his cricket kit" },            // About page
   equipmentPhoto: { src: "", alt: "Siddhant with the equipment" },         // top of Impact Tracker
 
