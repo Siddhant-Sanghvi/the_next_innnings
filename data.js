@@ -16,8 +16,8 @@ const DATA = {
   },
 
   heroBackground: { src: "images/image.jpg", darken: 0.55 },   // optional photo behind the About title. darken: 0 = no tint, 1 = fully dark (0.4 to 0.7 keeps the text readable)
-  heroPhoto: { src: "", alt: "Siddhant with his cricket kit" },            // About page
-  equipmentPhoto: { src: "", alt: "Siddhant with the equipment" },         // top of Impact Tracker
+  heroPhoto: { src: "images/me-hero.jpg", alt: "Siddhant with his cricket kit" },            // About page
+  equipmentPhoto: { src: "images/equipment.jpg", alt: "Siddhant with the equipment" },         // top of Impact Tracker
 
   stories: [   // one entry per child: video on top, short write-up below. First names only; get a parent's or coach's permission first
     // { name: "Asha", age: 12, area: "Worli", received: "Bat, pads, helmet", youtube: "VIDEO_ID", writeup: "Who they are, in a few sentences." },
