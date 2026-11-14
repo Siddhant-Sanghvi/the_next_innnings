@@ -62,3 +62,5 @@ figure{margin:0}figcaption{font-size:13px;color:var(--mute);margin-top:8px}
 @media(max-width:780px){.hero .in{grid-template-columns:1fr;gap:40px;text-align:center}.hero .tag{margin-left:auto;margin-right:auto}.pf{max-width:300px;margin:0 auto}.band{padding:72px 20px}.bar nav a{margin:0 14px 0 0}.mission{padding:32px 24px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 .hero[style]{background-size:cover;background-position:center}
+body[data-page="impact"] .navy.band{background:radial-gradient(ellipse at 50% 100%,rgba(194,154,63,.24),transparent 62%),repeating-linear-gradient(90deg,rgba(255,255,255,.035) 0 90px,transparent 90px 180px),linear-gradient(180deg,#0E2A52,var(--deep));border-bottom:1px solid var(--gold)}
+body[data-page="impact"] .big{text-shadow:0 0 44px rgba(194,154,63,.4)}
