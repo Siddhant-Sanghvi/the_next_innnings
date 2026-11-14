@@ -4,12 +4,15 @@
    e.g. "images/me-batting.jpg". Keep commas and quotation marks intact.
    ===================================================================== */
 const DATA = {
-  lastUpdated: "2026-11-03",          // change this date whenever you update numbers
-  peopleHelped: 0,                    // headline number
-  equipment: {                        // item counts; the total adds itself up
-    "Bats": 0, "Pads": 0, "Gloves": 0, "Inner gloves": 0,
-    "Wicketkeeping gloves": 0, "Abdomen guards": 0, "Thigh pads": 0,
-    "Helmets": 0, "Tennis balls": 0, "Leather balls": 0, "Clothes": 0
+   lastUpdated: "2026-11-14",
+  peopleHelped: 0,
+  equipment: {
+    "Bats": 10, "Pads": 5, "Gloves": 6, "Inner gloves": 2,
+    "Wicketkeeping gloves": 1, "Abdomen guards": 11, "Thigh pads": 3,
+    "Elbow guards": 2, "Helmets": 4, "Shoes & spikes": 7,
+    "Kits": 2, "Kit bags": 2, "Stump sets": 2, "Other gear": 3,
+    "Tennis balls": 75, "Leather balls": 3,
+    "T-shirts": 5, "Caps": 2, "Bags of clothes": 2
   },
 
   heroBackground: { src: "images/image.jpg", darken: 0.55 },   // optional photo behind the About title. darken: 0 = no tint, 1 = fully dark (0.4 to 0.7 keeps the text readable)
